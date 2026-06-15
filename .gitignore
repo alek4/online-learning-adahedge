@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Logs and results (optional but common for ML experiments)
+results/
+plots/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Pytest / coverage (if used later)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large or temporary data files (optional)
+data/*.npy
+data/*.csv
